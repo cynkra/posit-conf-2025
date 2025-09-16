@@ -15,9 +15,10 @@ September 17, 2025.
 
 1.  Clone the repository.
 2.  Open the project in Positron, RStudio, or your favorite IDE.
-3.  Run `scripts/00-install.R` to install the required packages into a
-    project-local library.
-4.  Open and run the other scripts in the `scripts/` directory.
+3.  Run `scripts/00-isolate.R` to create an empty project-local library.
+    Restart the IDE.
+4.  Run `scripts/01-install.R` to install the required packages.
+5.  Open and run the other scripts in the `scripts/` directory.
 
 ## Additional resources
 
