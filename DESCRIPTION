@@ -18,6 +18,8 @@ Suggests:
     dbplyr,
     dplyr,
     duckdb (>= 1.3.3),
-    duckplyr
+    duckplyr,
+    ggplot2
 Remotes: 
-    tidyverse/duckplyr
+    tidyverse/duckplyr,
+    r-lib/pillar
