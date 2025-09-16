@@ -1,0 +1,31 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# posit.conf.2025.duckplyr
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+The goal of this repo is to provide supplementary material for the
+presentation at posit::conf(2025) on duckplyr in Atlanta, GA, on
+September 17, 2025.
+
+## Getting started
+
+1.  Clone the repository.
+2.  Open the project in Positron, RStudio, or your favorite IDE.
+3.  Run `pak::pak()` to install the dependencies.
+4.  Open and run the scripts in the `scripts/` directory.
+
+## Additional resources
+
+- <https://github.com/tidyverse/duckplyr>: duckplyr GitHub repository
+
+- <https://duckplyr.tidyverse.org/>: duckplyr documentation
+
+- <https://duckdb.org/>: DuckDB official website
+
+- Slides: FIXME
+
+- Video: FIXME
