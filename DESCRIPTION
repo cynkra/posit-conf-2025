@@ -19,7 +19,7 @@ Suggests:
     dplyr,
     duckdb (>= 1.3.3),
     duckplyr,
-    ggplot2
+    tidyverse
 Remotes: 
     tidyverse/duckplyr,
     r-lib/pillar
