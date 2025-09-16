@@ -24,8 +24,8 @@ The goal of this repo is to provide supplementary material for the presentation 
 
 1. Clone the repository.
 2. Open the project in Positron, RStudio, or your favorite IDE.
-3. Run `pak::pak()` to install the dependencies.
-4. Open and run the scripts in the `scripts/` directory.
+3. Run `scripts/00-install.R` to install the required packages into a project-local library.
+4. Open and run the other scripts in the `scripts/` directory.
 
 ## Additional resources
 
