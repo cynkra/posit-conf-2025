@@ -1,14 +1,14 @@
 Package: posit.conf.2025.duckplyr
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Accompanying Material for the Presentation on "duckplyr" at "posit::conf(2025)"
+Version: 1.0.0
 Date: 2025-09-16
 Authors@R: 
     person("Kirill", "Müller", , "kirill@cynkra.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-1416-3412"))
-Description: What the package does (one paragraph).
+Description: Scripts and installation instructions for 
 License: MIT
-URL: https://github.com/krlmlr/cynkra, https://krlmlr.github.io/cynkra
-BugReports: https://github.com/krlmlr/cynkra/issues
+URL: https://github.com/cynkra/posit-conf-2025, https://cynkra.github.io/posit-conf-2025
+BugReports: https://github.com/cynkra/posit-conf-2025/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3.9000
