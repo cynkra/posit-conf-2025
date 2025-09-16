@@ -1,5 +1,6 @@
-# Restart R session
+# Restart R session if needed
 stopifnot(!("duckplyr" %in% loadedNamespaces()))
+stopifnot(Sys.getenv("DUCKPLYR_FORCE") == "")
 
 library(tidyverse)
 
