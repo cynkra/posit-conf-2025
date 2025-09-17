@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# posit.conf.2025.duckplyr
+# duckplyr at posit::conf(2025)
 
 <!-- badges: start -->
 <!-- badges: end -->

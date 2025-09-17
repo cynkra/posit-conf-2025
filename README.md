@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# posit.conf.2025.duckplyr
+# duckplyr at posit::conf(2025)
 
 <!-- badges: start -->
 
