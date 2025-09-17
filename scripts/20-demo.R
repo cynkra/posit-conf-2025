@@ -1,4 +1,3 @@
-library(conflicted)
 library(duckplyr)
 
 
@@ -60,3 +59,21 @@ personas_count$education_level
 # Works, but slow
 personas |>
   collect()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Safety net: Local operation
+personas <- read_parquet_duckdb("personas.parquet")
