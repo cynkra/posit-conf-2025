@@ -81,6 +81,26 @@ if (FALSE) {
 personas_count$education_level
 
 
+# End to end --------------------------------------------------------------------------
+
+personas_count_parquet <-
+  personas_count |>
+  compute_parquet("personas_count.parquet")
+
+personas_count_parquet |>
+  explain()
+
+personas_count_csv <-
+  personas_count |>
+  compute_csv("personas_count.csv")
+
+personas_count_csv |>
+  explain()
+
+# Iterate fast using a local copy, then change back to remote access
+# without changing any other code
+
+
 # Local copy --------------------------------------------------------------------------
 
 personas_local <- read_parquet_duckdb("personas.parquet")
