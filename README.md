@@ -28,6 +28,8 @@ September 17, 2025.
 
 - <https://duckdb.org/>: DuckDB official website
 
+- <https://cynkra.github.io/dd/>: dd package (help for DuckDB functions)
+
 - Slides: FIXME
 
 - Video: FIXME

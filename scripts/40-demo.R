@@ -1,9 +1,11 @@
 library(tidyverse)
 
+idx <- duckplyr::duckdb_tibble(id = 1:1e4)
 
 
-data <-
-  duckplyr::duckdb_tibble(id = 1:1e6, .prudence = "stingy") |>
-  mutate(x = dd::random())
 
-data
+idx |>
+  mutate(x = dd::random()) |>
+  ggplot(aes(x)) +
+  theme_void(ink = "blue", paper = "black") +
+  geom_histogram()
