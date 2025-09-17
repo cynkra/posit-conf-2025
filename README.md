@@ -30,6 +30,6 @@ September 17, 2025.
 
 - <https://cynkra.github.io/dd/>: dd package (help for DuckDB functions)
 
-- [Slides](./slides.pdf)
+- [Slides](./duckplyr-posit-conf-2025.pdf)
 
 - Video: FIXME
