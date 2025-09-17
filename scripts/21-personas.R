@@ -5,16 +5,17 @@ library(duckplyr)
 
 # See scripts/10-personas-download.R
 
-
 # Direct access over internet ---------------------------------------------------------
 
 db_exec("INSTALL httpfs")
 
 # Requires HuggingFace token for reading stored in ~/.cache/huggingface/token
-db_exec("CREATE OR REPLACE SECRET hf_token (
+db_exec(
+  "CREATE OR REPLACE SECRET hf_token (
   TYPE huggingface,
   PROVIDER credential_chain
-)")
+)"
+)
 
 personas <- read_parquet_duckdb(
   "hf://datasets/nvidia/Nemotron-Personas/*/*.parquet"

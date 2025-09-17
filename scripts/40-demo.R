@@ -3,7 +3,6 @@ library(tidyverse)
 idx <- duckplyr::duckdb_tibble(id = 1:1e4)
 
 
-
 idx |>
   mutate(x = dd::random()) |>
   ggplot(aes(x)) +

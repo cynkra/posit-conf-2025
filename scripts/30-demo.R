@@ -12,7 +12,7 @@ data <-
   mutate(x = rnorm(n()))
 
 data |>
-#  as_duckdb_tibble(prudence = "stingy") |>
+  #  as_duckdb_tibble(prudence = "stingy") |>
   summarize(.by = c(g1, g2), m = mean(x)) |>
-#  collect() |>
+  #  collect() |>
   system.time()

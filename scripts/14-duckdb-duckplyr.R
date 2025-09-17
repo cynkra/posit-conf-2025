@@ -1,3 +1,4 @@
 tbl <- duckplyr::read_parquet_duckdb(
-  "personas.parquet")
+  "personas.parquet"
+)
 tbl |> dplyr::count()
