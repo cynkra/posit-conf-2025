@@ -1,6 +1,8 @@
-# Restart R session if needed
-stopifnot(!("duckplyr" %in% loadedNamespaces()))
 library(tidyverse)
+#library(duckplyr)
+#
+#
+#
 
 G <- 200
 N <- 5000
@@ -10,5 +12,7 @@ data <-
   mutate(x = rnorm(n()))
 
 data |>
+  #  as_duckdb_tibble(prudence = "stingy") |>
   summarize(.by = c(g1, g2), m = mean(x)) |>
+  #  collect() |>
   system.time()

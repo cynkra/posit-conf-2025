@@ -71,9 +71,13 @@ personas |>
 personas$age
 personas[1:3, ]
 
-personas |>
-  collect()
+# Works, just takes a long time:
+if (FALSE) {
+  personas |>
+    collect()
+}
 
+# Works because data is small
 personas_count$education_level
 
 
