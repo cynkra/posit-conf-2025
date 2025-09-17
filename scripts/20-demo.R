@@ -17,11 +17,6 @@ personas <- read_parquet_duckdb(
   "hf://datasets/nvidia/Nemotron-Personas/*/*.parquet"
 )
 
-# Fallback to local file
-if (FALSE) {
-  personas <- read_parquet_duckdb("personas.parquet")
-}
-
 personas
 personas |> glimpse()
 
@@ -58,9 +53,9 @@ personas |>
 personas$age
 personas[1:3, ]
 
+# Works because data is small
+personas_count$education_level
+
 # Works, but slow
 personas |>
   collect()
-
-# Works because data is small
-personas_count$education_level
