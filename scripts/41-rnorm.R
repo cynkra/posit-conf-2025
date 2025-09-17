@@ -2,6 +2,8 @@ library(tidyverse)
 
 idx <- duckplyr::duckdb_tibble(id = 1:1e4)
 
+duckplyr::db_exec("INSTALL stochastic")
+
 duckplyr::db_exec("LOAD stochastic")
 
 idx |>

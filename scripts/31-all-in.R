@@ -1,3 +1,4 @@
+library(tidyverse)
 library(duckplyr)
 
 # Alternative to "prudence" setting

@@ -2,6 +2,7 @@
 stopifnot(Sys.getenv("DUCKPLYR_FORCE") == "")
 
 library(tidyverse)
+library(duckplyr)
 
 # Smaller sample because data generation is now part of the process
 G <- 200
