@@ -18,10 +18,10 @@ Suggests:
     dbplyr,
     dd,
     dplyr,
-    duckdb (>= 1.3.3),
+    duckdb,
     duckplyr,
+    pillar (>= 1.11.1),
     tidyverse
 Remotes: 
     cynkra/dd,
-    tidyverse/duckplyr,
-    r-lib/pillar
+    tidyverse/duckplyr
