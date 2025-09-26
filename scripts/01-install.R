@@ -9,8 +9,3 @@ install.packages(
 )
 
 pak::pak()
-
-install.packages(
-  "duckdb",
-  repos = c("https://duckdb.r-universe.dev", "https://cloud.r-project.org")
-)
